@@ -1,0 +1,51 @@
+
+
+body {
+  
+  background-color: rgb(165, 165, 166);
+  display: flex;
+  
+  justify-content: center;
+ align-content: center;
+}
+.container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+ 
+  background-color: white;
+  border-radius: 15px;
+  
+}
+.pergunta {
+  margin-left: 100px;
+  margin-top: 40px;
+  
+}
+.respostas {
+  margin-left: 50px;
+}
+.resposta {
+  margin-bottom: 20px;
+}
+.submit {
+  background: rebeccapurple;
+  color: white;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+.container{
+  display: block;
+}
+.resultado {
+  padding-top: 150px;
+  
+  text-align: center;
+  display: none;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  border-radius: 15px;
+}
